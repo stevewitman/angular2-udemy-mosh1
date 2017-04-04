@@ -6,7 +6,7 @@ import { CourseService } from './course.service'
     templateUrl: 'courses.component.html'
 })
 export class CoursesComponent {
-    title = "Here is the title";
+    title = "Courses";
     courses;
 
     constructor(courseService: CourseService) {

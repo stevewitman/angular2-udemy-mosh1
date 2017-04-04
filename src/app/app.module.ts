@@ -5,19 +5,22 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component'
+import { AuthorsComponent } from './authors.component'
 import { CourseService } from './course.service'
+import { AuthorService } from './author.service'
 
 @NgModule({
   declarations: [
     AppComponent,
-    CoursesComponent
+    CoursesComponent,
+    AuthorsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [CourseService],
+  providers: [CourseService, AuthorService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
