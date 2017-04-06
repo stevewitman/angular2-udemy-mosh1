@@ -9,13 +9,18 @@ import { AuthorsComponent } from './authors.component'
 import { CourseService } from './course.service'
 import { AuthorService } from './author.service'
 import { AutoGrowDirective } from './auto-grow.directive';
+import { PropertyBindingComponent } from './property-binding.component'
+import { ClassBindingComponent } from './class-binding.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     AuthorsComponent,
-    AutoGrowDirective
+    AutoGrowDirective,
+    PropertyBindingComponent,
+    ClassBindingComponent
   ],
   imports: [
     BrowserModule,

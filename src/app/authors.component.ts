@@ -7,7 +7,7 @@ import { AuthorService } from './author.service'
     templateUrl: './authors.component.html'
 })
 export class AuthorsComponent {
-    title = "Authors";
+    title = "Authors Component";
     authors;
     constructor(authorService: AuthorService) {
         this.authors = authorService.getAuthors();
