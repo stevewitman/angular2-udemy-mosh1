@@ -14,6 +14,7 @@ import { ClassBindingComponent } from './class-binding.component'
 import { StyleBindingComponent } from './style-binding.component'
 import { EventBindingComponent } from './event-binding.component'
 import { TwowayBindingComponent } from './twoway-binding.component'
+import { FavoriteComponent } from './favorite.component'
 
 
 
@@ -27,7 +28,8 @@ import { TwowayBindingComponent } from './twoway-binding.component'
     ClassBindingComponent,
     StyleBindingComponent,
     EventBindingComponent,
-    TwowayBindingComponent
+    TwowayBindingComponent,
+    FavoriteComponent
   ],
   imports: [
     BrowserModule,
