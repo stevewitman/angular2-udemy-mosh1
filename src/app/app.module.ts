@@ -11,6 +11,8 @@ import { AuthorService } from './author.service'
 import { AutoGrowDirective } from './auto-grow.directive';
 import { PropertyBindingComponent } from './property-binding.component'
 import { ClassBindingComponent } from './class-binding.component'
+import { StyleBindingComponent } from './style-binding.component'
+import { EventBindingComponent } from './event-binding.component'
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { ClassBindingComponent } from './class-binding.component'
     AuthorsComponent,
     AutoGrowDirective,
     PropertyBindingComponent,
-    ClassBindingComponent
+    ClassBindingComponent,
+    StyleBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
