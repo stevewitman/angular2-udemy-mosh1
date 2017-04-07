@@ -4,18 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { CoursesComponent } from './courses.component'
-import { AuthorsComponent } from './authors.component'
-import { CourseService } from './course.service'
-import { AuthorService } from './author.service'
+import { CoursesComponent } from './courses.component';
+import { AuthorsComponent } from './authors.component';
+import { CourseService } from './course.service';
+import { AuthorService } from './author.service';
 import { AutoGrowDirective } from './auto-grow.directive';
-import { PropertyBindingComponent } from './property-binding.component'
-import { ClassBindingComponent } from './class-binding.component'
-import { StyleBindingComponent } from './style-binding.component'
-import { EventBindingComponent } from './event-binding.component'
-import { TwowayBindingComponent } from './twoway-binding.component'
-import { FavoriteComponent } from './favorite.component'
-
+import { PropertyBindingComponent } from './property-binding.component';
+import { ClassBindingComponent } from './class-binding.component';
+import { StyleBindingComponent } from './style-binding.component';
+import { EventBindingComponent } from './event-binding.component';
+import { TwowayBindingComponent } from './twoway-binding.component';
+import { FavoriteComponent } from './favorite.component';
+import { StarsComponent } from './stars.component';
 
 
 @NgModule({
@@ -29,7 +29,8 @@ import { FavoriteComponent } from './favorite.component'
     StyleBindingComponent,
     EventBindingComponent,
     TwowayBindingComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    StarsComponent
   ],
   imports: [
     BrowserModule,

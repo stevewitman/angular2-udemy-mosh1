@@ -9,12 +9,12 @@ export class FavoriteComponent {
     favClass = "glyphicon glyphicon-star-empty"
     onClick() {
         if (this.isFavorite) {
-            console.log('fav')
-            this.favClass = "glyphicon glyphicon-star"
+            console.log("un-fav'd")
+            this.favClass = "glyphicon glyphicon-star-empty"
             this.isFavorite = false
         } else {
-            console.log('un-fav')
-            this.favClass = "glyphicon glyphicon-star-empty"
+            console.log("fav'd")
+            this.favClass = "glyphicon glyphicon-star"
             this.isFavorite = true
         }
         
