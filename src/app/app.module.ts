@@ -16,6 +16,7 @@ import { EventBindingComponent } from './event-binding.component';
 import { TwowayBindingComponent } from './twoway-binding.component';
 import { FavoriteComponent } from './favorite.component';
 import { StarsComponent } from './stars.component';
+import { LikeComponent } from './like.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { StarsComponent } from './stars.component';
     EventBindingComponent,
     TwowayBindingComponent,
     FavoriteComponent,
-    StarsComponent
+    StarsComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
