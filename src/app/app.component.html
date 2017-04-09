@@ -8,5 +8,5 @@
 <style-binding></style-binding>
 <event-binding></event-binding>
 <twoway-binding></twoway-binding>
-<favorite></favorite>
+<favorite [isFavorite]="post.isFavorite" (change)="onFavoriteChange($event)"></favorite>
 <stars></stars>
