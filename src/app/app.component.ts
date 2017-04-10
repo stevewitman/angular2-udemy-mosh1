@@ -13,4 +13,11 @@ export class AppComponent {
   onFavoriteChange($event) {
     console.log($event)
   }
+  post2 = {
+    voteCount: 10,
+    myVote: 0
+  }
+  onVote($event) {
+    console.log($event);
+  }
 }

@@ -11,3 +11,4 @@
 <favorite [isFavorite]="post.isFavorite" (change)="onFavoriteChange($event)"></favorite>
 <stars></stars>
 <like [totalLikes]="10"></like>
+<voter [voteCount]="post2.voteCount" [myVote]="post2.myVote" (vote)="onVote($event)"></voter>

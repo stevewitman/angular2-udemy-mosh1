@@ -17,6 +17,7 @@ import { TwowayBindingComponent } from './twoway-binding.component';
 import { FavoriteComponent } from './favorite.component';
 import { StarsComponent } from './stars.component';
 import { LikeComponent } from './like.component';
+import { VoterComponent } from './voter.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { LikeComponent } from './like.component';
     TwowayBindingComponent,
     FavoriteComponent,
     StarsComponent,
-    LikeComponent
+    LikeComponent,
+    VoterComponent
   ],
   imports: [
     BrowserModule,
