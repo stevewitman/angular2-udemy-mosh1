@@ -11,11 +11,11 @@ import { Component, Input } from '@angular/core'
         ></i>
         <span>{{totalLikes}}</span>
     `,
-    styles: [ 
+    styles: [` 
         i:hover {
-            cursor: "pointer"
+            cursor: pointer;
         }
-    ]
+    `]
 
 })
 export class LikeComponent {
