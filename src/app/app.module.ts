@@ -18,6 +18,7 @@ import { FavoriteComponent } from './favorite.component';
 import { StarsComponent } from './stars.component';
 import { LikeComponent } from './like.component';
 import { VoterComponent } from './voter.component';
+import { PanelComponent } from './panel.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { VoterComponent } from './voter.component';
     FavoriteComponent,
     StarsComponent,
     LikeComponent,
-    VoterComponent
+    VoterComponent,
+    PanelComponent,
   ],
   imports: [
     BrowserModule,
