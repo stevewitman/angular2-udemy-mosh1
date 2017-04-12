@@ -19,6 +19,7 @@ import { StarsComponent } from './stars.component';
 import { LikeComponent } from './like.component';
 import { VoterComponent } from './voter.component';
 import { PanelComponent } from './panel.component';
+import { ZippyComponent } from './zippy.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { PanelComponent } from './panel.component';
     LikeComponent,
     VoterComponent,
     PanelComponent,
+    ZippyComponent,
   ],
   imports: [
     BrowserModule,
